@@ -1,4 +1,5 @@
 import React from 'react'
+import HogTile from './HogTile'
 
 //passing down props
 export default function DisplayHogs(hogs, greased, sort) {
