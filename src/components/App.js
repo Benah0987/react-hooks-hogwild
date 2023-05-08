@@ -3,6 +3,7 @@ import Nav from "./Nav";
 
 import hogs from "../porkers_data";
 import { useState } from "react/cjs/react.production.min";
+import DisplayHogs from "./DisplayHogs";
 
 function App() {
 
