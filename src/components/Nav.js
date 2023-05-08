@@ -1,5 +1,6 @@
 import React from "react";
 import piggy from "../assets/porco.png";
+import Filter from "./Filter";
 
 //passing down props
 const Nav = ({handleChange, handleGreased}) => {
@@ -12,9 +13,10 @@ const Nav = ({handleChange, handleGreased}) => {
 			<span className="normalText">
 				A React App for County Fair Hog Fans
 			</span>
+			{/*will handle the grease and the not greased*/}
 			<button onClick = {handleGreased} >Grease</button>
-			{/*passnig down prop to Filter child*/}
-			<Filter 
+			{/*passing down prop to Filter child*/}
+			<Filter handleChange = {handleChange} />
 		</div>
 	);
 };
