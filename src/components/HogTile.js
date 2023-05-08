@@ -15,7 +15,7 @@ export default function HogTile({hog}) {
         <h2>{hog.name}</h2>
         <button onClick ={handleClick}> view </button>
         {
-        showFacts ? <HogFacts hog = {hog} /> : <img src = {hog.image} alt = {hog.name}/> 
+        showFacts ? <HogFact hog = {hog} /> : <img src = {hog.image} alt = {hog.name}/> 
         }
 
     </div>
